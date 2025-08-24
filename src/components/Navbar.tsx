@@ -25,7 +25,7 @@ const Navbar = () => {
               transition={{ duration: 0.5 }}
               className="text-2xl font-bold text-[#FF6B00]"
             >
-              Ahmed Mohsen Kamel
+              Ahmed Mohsen
             </motion.a>
           </div>
 
