@@ -56,70 +56,6 @@ const Contact = () => {
 
         <div className="grid md:grid-cols-2 gap-12">
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
-          >
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block mb-2 font-medium">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 bg-[#0A0F2C] border border-[#FF6B00]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6B00]"
-                  placeholder="Your Name"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="email" className="block mb-2 font-medium">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 bg-[#0A0F2C] border border-[#FF6B00]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6B00]"
-                  placeholder="your.email@example.com"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block mb-2 font-medium">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={5}
-                  className="w-full px-4 py-3 bg-[#0A0F2C] border border-[#FF6B00]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6B00]"
-                  placeholder="Your message here..."
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full bg-[#FF6B00] hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition-colors"
-              >
-                Send Message
-              </button>
-            </form>
-          </motion.div>
-
-          <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -137,6 +73,35 @@ const Contact = () => {
             </div>
 
             <div className="space-y-4">
+              <div className="flex space-x-4 mb-9">
+                <a
+                  href="https://www.facebook.com/share/1BxTmP1uSj/"
+                  className="bg-[#0A0F2C] p-3 rounded-full hover:bg-[#FF6B00] transition-colors"
+                >
+                  <FaFacebook className="text-2xl" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/ahmed-mohsen-5a3716220 "
+                  className="bg-[#0A0F2C] p-3 rounded-full hover:bg-[#FF6B00] transition-colors"
+                >
+                  <FaLinkedin className="text-2xl" />
+                </a>
+                <a
+                  href="https://wa.me/201279734467"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#0A0F2C] p-3 rounded-full hover:bg-[#FF6B00] transition-colors"
+                >
+                  <FaWhatsapp className="text-2xl" />
+                </a>
+
+                <a
+                  href="https://www.instagram.com/ahmed_mohsen_74?igsh=Z3plNzBnanM1NXA="
+                  className="bg-[#0A0F2C] p-3 rounded-full hover:bg-[#FF6B00] transition-colors"
+                >
+                  <FaInstagram className="text-2xl" />
+                </a>
+              </div>
               <div className="flex items-center">
                 <div className="bg-[#FF6B00] p-3 rounded-full mr-4">
                   <svg
@@ -205,36 +170,70 @@ const Contact = () => {
               <h3 className="text-xl font-bold text-[#FF6B00] mb-4">
                 Follow Me
               </h3>
-              <div className="flex space-x-4">
-                <a
-                  href="https://www.facebook.com/share/1BxTmP1uSj/"
-                  className="bg-[#0A0F2C] p-3 rounded-full hover:bg-[#FF6B00] transition-colors"
-                >
-                  <FaFacebook className="text-2xl" />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/ahmed-mohsen-5a3716220 "
-                  className="bg-[#0A0F2C] p-3 rounded-full hover:bg-[#FF6B00] transition-colors"
-                >
-                  <FaLinkedin className="text-2xl" />
-                </a>
-                <a
-                  href="https://wa.me/201279734467"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-[#0A0F2C] p-3 rounded-full hover:bg-[#FF6B00] transition-colors"
-                >
-                  <FaWhatsapp className="text-2xl" />
-                </a>
-
-                <a
-                  href="https://www.instagram.com/ahmed_mohsen_74?igsh=Z3plNzBnanM1NXA="
-                  className="bg-[#0A0F2C] p-3 rounded-full hover:bg-[#FF6B00] transition-colors"
-                >
-                  <FaInstagram className="text-2xl" />
-                </a>
-              </div>
             </div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+          >
+            <form onSubmit={handleSubmit} className="space-y-6">
+              <div>
+                <label htmlFor="name" className="block mb-2 font-medium">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                  className="w-full px-4 py-3 bg-[#0A0F2C] border border-[#FF6B00]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6B00]"
+                  placeholder="Your Name"
+                />
+              </div>
+
+              <div>
+                <label htmlFor="email" className="block mb-2 font-medium">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                  className="w-full px-4 py-3 bg-[#0A0F2C] border border-[#FF6B00]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6B00]"
+                  placeholder="your.email@example.com"
+                />
+              </div>
+
+              <div>
+                <label htmlFor="message" className="block mb-2 font-medium">
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                  rows={5}
+                  className="w-full px-4 py-3 bg-[#0A0F2C] border border-[#FF6B00]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6B00]"
+                  placeholder="Your message here..."
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="w-full bg-[#FF6B00] hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition-colors"
+              >
+                Send Message
+              </button>
+            </form>
           </motion.div>
         </div>
       </div>
