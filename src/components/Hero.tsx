@@ -61,7 +61,7 @@ const Hero = () => {
             href="#contact"
             className="bg-[#FF6B00] hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition-colors"
           >
-            Contact Me
+          call Me
           </a>
           <button
             onClick={downloadCV}
