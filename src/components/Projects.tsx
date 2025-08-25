@@ -16,9 +16,9 @@ const Projects = () => {
   const [projects] = useState<Project[]>([
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "Product management system",
       description:
-        "A full-featured online store with product management, cart, and payment processing.",
+        "A system to efficiently manage products, including adding, updating, categorizing, and tracking inventory.",
       image: "/api/placeholder/400/250",
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
       githubUrl: "#",
@@ -26,19 +26,19 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Todo App",
       description:
         "A productivity application for managing tasks with drag-and-drop functionality.",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "TypeScript", "Firebase", "TailwindCSS"],
+      technologies: ["React", "TypeScript", "localStorage", "TailwindCSS"],
       githubUrl: "#",
       liveUrl: "#",
     },
     {
       id: 3,
-      title: "Social Media Dashboard",
+      title: "Gym management",
       description:
-        "Analytics dashboard for tracking social media engagement and performance metrics.",
+        "A platform to manage gym members, track subscriptions, schedule classes, and monitor fitness progress.",
       image: "/api/placeholder/400/250",
       technologies: ["Next.js", "Chart.js", "MySQL", "Auth0"],
       githubUrl: "#",
@@ -56,9 +56,9 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: "Weather Application",
+      title: "Invest in Dubai",
       description:
-        "Real-time weather forecasts with location detection and historical data.",
+        "An online clothing store offering stylish collections, easy shopping, and secure checkout.",
       image: "/api/placeholder/400/250",
       technologies: ["Vue.js", "OpenWeather API", "GraphQL", "Netlify"],
       githubUrl: "#",
@@ -66,9 +66,10 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: "Fitness Tracker",
+      title: "dashboard",
       description:
-        "Workout and nutrition tracking application with progress visualization.",
+        "An interactive dashboard for visualizing data, tracking performance, and managing key metrics in real time.",
+
       image: "/api/placeholder/400/250",
       technologies: ["React Native", "Redux", "Node.js", "MongoDB"],
       githubUrl: "#",
