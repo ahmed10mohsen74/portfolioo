@@ -51,19 +51,19 @@ const About = () => {
               <h3 className="text-xl font-bold text-[#FF6B00] mb-2">
                 Frontend
               </h3>
-              <p>React, TypeScript, TailwindCSS, Next.js</p>
+              <p>Html, css, javaScript, React, TypeScript, TailwindCSS </p>
             </div>
             <div className="bg-[#0F1535] p-6 rounded-lg">
               <h3 className="text-xl font-bold text-[#FF6B00] mb-2">Backend</h3>
-              <p>Node.js, Express, MongoDB, PostgreSQL</p>
+              <p>Node.js, Express, MongoDB</p>
             </div>
             <div className="bg-[#0F1535] p-6 rounded-lg">
               <h3 className="text-xl font-bold text-[#FF6B00] mb-2">APIs</h3>
-              <p>REST, GraphQL, WebSocket, Authentication</p>
+              <p>REST, Authentication</p>
             </div>
             <div className="bg-[#0F1535] p-6 rounded-lg">
               <h3 className="text-xl font-bold text-[#FF6B00] mb-2">Tools</h3>
-              <p>Git, Docker, AWS, Vercel, Netlify</p>
+              <p>Git, Vercel, Netlify</p>
             </div>
           </motion.div>
         </div>

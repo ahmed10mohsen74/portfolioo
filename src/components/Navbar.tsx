@@ -37,7 +37,7 @@ const Navbar = () => {
                 href={item.href}
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                transition={{ duration: 0.5, delay: index * 0.5 }}
                 className="text-[#E0E0E0] hover:text-[#FF6B00] transition-colors"
               >
                 {item.name}

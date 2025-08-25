@@ -1,5 +1,6 @@
 // components/Hero.tsx
 import { motion } from "framer-motion";
+import Contact from './Contact';
 
 const Hero = () => {
   const downloadCV = () => {
@@ -60,7 +61,7 @@ const Hero = () => {
             href="#contact"
             className="bg-[#FF6B00] hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition-colors"
           >
-            Hire Me
+            Contact Me
           </a>
           <button
             onClick={downloadCV}
