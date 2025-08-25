@@ -9,18 +9,19 @@ interface Skill {
 
 const Skills = () => {
   const skills: Skill[] = [
+    { name: "httml", level: 95, category: "Frontend" },
+    { name: "css", level: 90, category: "Frontend" },
+    { name: "javaScript", level: 80, category: "Frontend" },
+    { name: "TypeScript", level: 80, category: "Frontend" },
     { name: "React", level: 90, category: "Frontend" },
-    { name: "TypeScript", level: 85, category: "Frontend" },
-    { name: "TailwindCSS", level: 80, category: "Frontend" },
-    { name: "Next.js", level: 75, category: "Frontend" },
+    { name: "TailwindCSS", level: 85, category: "Frontend" },
+    { name: "Next.js", level: 65, category: "Frontend" },
     { name: "Node.js", level: 85, category: "Backend" },
     { name: "Express", level: 80, category: "Backend" },
     { name: "MongoDB", level: 75, category: "Backend" },
-    { name: "PostgreSQL", level: 70, category: "Backend" },
     { name: "REST APIs", level: 85, category: "APIs" },
-    { name: "GraphQL", level: 70, category: "APIs" },
-    { name: "Git", level: 80, category: "Tools" },
-    { name: "Docker", level: 65, category: "Tools" },
+    { name: "Git", level: 90, category: "Tools" },
+    { name: "versel", level: 90, category: "Tools" },
   ];
 
   const categories = [...new Set(skills.map((skill) => skill.category))];
