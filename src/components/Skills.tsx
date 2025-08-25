@@ -76,7 +76,7 @@ const Skills = () => {
                         initial={{ width: 0 }}
                         whileInView={{ width: `${skill.level}%` }}
                         viewport={{ once: true }}
-                        transition={{ duration: 1, delay: index * 0.1 }}
+                        transition={{ duration: 1, delay: index * 0.2 }}
                       />
                     </div>
                   </div>
