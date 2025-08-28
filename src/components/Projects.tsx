@@ -2,8 +2,9 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import smartRent from "../assets/SmartRent.png";
-import gym from "../assets/gym.png" ;
-import productmanagement from "../assets/product management.png" ;
+import gym from "../assets/gym.png";
+import productmanagement from "../assets/product management.png";
+import todo from "../assets/to do.png";
 
 interface Project {
   id: number;
@@ -51,13 +52,14 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Real Estate Listing",
+      title: "todo app",
       description:
-        "Platform for property listings with search filters and interactive maps.",
-      image: "/api/placeholder/400/250",
+        "A simple and efficient app to create, organize, and track your daily tasks with ease.",
+
+      image: todo,
       technologies: ["React", "Leaflet", "Express", "PostgreSQL"],
       githubUrl: "#",
-      liveUrl: "#",
+      liveUrl: "https://ahmed10mohsen74.github.io/ToDo/",
     },
     {
       id: 5,
