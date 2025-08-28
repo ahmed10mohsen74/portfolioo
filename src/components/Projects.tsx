@@ -2,6 +2,8 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import smartRent from "../assets/SmartRent.png";
+import gym from "../assets/gym.png";
+import productmanagement from "../assets/product management.png";
 
 interface Project {
   id: number;
@@ -28,21 +30,22 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Todo App",
+      title: "product management system",
       description:
-        "A productivity application for managing tasks with drag-and-drop functionality.",
-      image: "/api/placeholder/400/250",
+        "A system to efficiently manage products, including adding, updating, categorizing, and tracking inventory in one place.",
+
+      image: productmanagement,
       technologies: ["React", "TypeScript", "localStorage", "TailwindCSS"],
       githubUrl: "#",
-      liveUrl: "#",
+      liveUrl: "https://ahmed10mohsen74.github.io/Prodexa/",
     },
     {
       id: 3,
-      title: "Gym management",
+      title: "Gym ",
       description:
         "A platform to manage gym members, track subscriptions, schedule classes, and monitor fitness progress.",
-      image: "/api/placeholder/400/250",
-      technologies: ["Next.js", "Chart.js", "MySQL", "Auth0"],
+      image: gym,
+      technologies: ["React", "tailwind", "animate", "typeScript"],
       githubUrl: "#",
       liveUrl: "#",
     },
