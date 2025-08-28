@@ -5,6 +5,7 @@ import smartRent from "../assets/SmartRent.png";
 import gym from "../assets/gym.png";
 import productmanagement from "../assets/product management.png";
 import todo from "../assets/to do.png";
+import dashbord from "../assets/dashbord.png"
 
 interface Project {
   id: number;
@@ -77,10 +78,10 @@ const Projects = () => {
       description:
         "An interactive dashboard for visualizing data, tracking performance, and managing key metrics in real time.",
 
-      image: "/api/placeholder/400/250",
-      technologies: ["React Native", "Redux", "Node.js", "MongoDB"],
+      image: dashbord,
+      technologies: ["html", "css", "javaScript"],
       githubUrl: "#",
-      liveUrl: "#",
+      liveUrl: "https://ahmed10mohsen74.github.io/Dashbord/",
     },
   ]);
 
