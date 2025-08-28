@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import smartRent from "../assets/SmartRent.png";
-import gym from "../assets/gym.png";
+import gym from "../assets/gym.png" ;
 import productmanagement from "../assets/product management.png" ;
 
 interface Project {
