@@ -57,7 +57,7 @@ const Projects = () => {
         "A simple and efficient app to create, organize, and track your daily tasks with ease.",
 
       image: todo,
-      technologies: ["React", "Leaflet", "Express", "PostgreSQL"],
+      technologies: ["html", "css", "javascript"],
       githubUrl: "#",
       liveUrl: "https://ahmed10mohsen74.github.io/ToDo/",
     },
