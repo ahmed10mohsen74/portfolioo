@@ -1,6 +1,7 @@
 // components/Projects.tsx
 import { motion } from "framer-motion";
 import { useState } from "react";
+import smartRent from "../assets/SmartRent.png";
 
 interface Project {
   id: number;
@@ -16,13 +17,14 @@ const Projects = () => {
   const [projects] = useState<Project[]>([
     {
       id: 1,
-      title: "Product management system",
+      title: "smartRent",
       description:
-        "A system to efficiently manage products, including adding, updating, categorizing, and tracking inventory.",
-      image: "/api/placeholder/400/250",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+        "A smart system for managing hotel and car rentals, making it easy to add, update, organize bookings, and track availability in one place.",
+
+      image: smartRent,
+      technologies: ["React", "tailwind", "animate", "typeScript"],
       githubUrl: "#",
-      liveUrl: "#",
+      liveUrl: "https://elashry-realstate.vercel.app/",
     },
     {
       id: 2,
