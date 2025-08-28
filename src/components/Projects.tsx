@@ -47,7 +47,7 @@ const Projects = () => {
       image: gym,
       technologies: ["React", "tailwind", "animate", "typeScript"],
       githubUrl: "#",
-      liveUrl: "#",
+      liveUrl: "https://ahmed10mohsen74.github.io/v-fit-club/",
     },
     {
       id: 4,
